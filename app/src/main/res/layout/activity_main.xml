@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yangzhiyan.cctvnews.MainActivity">
+    <ImageView
+        android:id="@+id/ivcover"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/logo_sina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvusername"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微博登录" />
+
+    <Button
+        android:onClick="share"
+        android:text="分享到微博"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
